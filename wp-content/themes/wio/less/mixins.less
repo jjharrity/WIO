@@ -1,0 +1,48 @@
+
+.newtown-reg {
+	font-family: 'newtownregular', sans-serif;
+}
+
+
+.museo-reg {
+	font-family: "museo-slab",serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.museo-med {
+	font-family: "museo-slab",serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.transition {
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+
+.featured-transition {
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+.button {
+	margin-top: 30px;
+	border: 1px solid @dark-blue;
+	color: @dark-blue;
+	background-color: @gray;
+	.museo-reg;
+	.transition;
+	display: inline-block;
+	padding: 15px 35px;
+	border-radius: 4px;
+	&:hover {
+		text-decoration: none;
+		background-color: darken(@gray, 10%);
+		color: @dark-blue;
+	}
+}
